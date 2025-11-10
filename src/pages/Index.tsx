@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Calendar, Stethoscope, Sparkles, Building2, UtensilsCrossed } from "lucide-react";
+import { Stethoscope, Sparkles, Building2, UtensilsCrossed } from "lucide-react";
 import VoiceMicButton from "@/components/VoiceMicButton";
 import SectorCard from "@/components/SectorCard";
 import { Link } from "react-router-dom";
@@ -49,15 +49,16 @@ const Index = () => {
             <VoiceMicButton />
           </div>
           
-          <Link to="/agendar-cita">
-            <Button 
-              size="lg" 
-              className="text-lg px-8 py-6 rounded-full shadow-glow hover:shadow-soft transition-all duration-300"
-            >
-              <Calendar className="w-5 h-5 mr-2" />
-              Agenda una Cita
-            </Button>
-          </Link>
+          <div className="pt-8">
+            <Link to="/agendar-cita">
+              <Button 
+                size="lg" 
+                className="text-lg px-8 py-6 rounded-full shadow-glow hover:shadow-soft transition-all duration-300"
+              >
+                Hablar con avatar ejecutivo
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -100,8 +101,7 @@ const Index = () => {
               size="lg" 
               className="text-lg px-8 py-6 rounded-full shadow-glow hover:shadow-soft transition-all duration-300"
             >
-              <Calendar className="w-5 h-5 mr-2" />
-              Contacta con Nosotros
+              Hablar con avatar ejecutivo
             </Button>
           </Link>
         </div>
