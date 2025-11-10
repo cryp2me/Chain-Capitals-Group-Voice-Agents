@@ -49,13 +49,15 @@ const Index = () => {
             <VoiceMicButton />
           </div>
           
-          <Button 
-            size="lg" 
-            className="text-lg px-8 py-6 rounded-full shadow-glow hover:shadow-soft transition-all duration-300"
-          >
-            <Calendar className="w-5 h-5 mr-2" />
-            Agenda una Cita
-          </Button>
+          <Link to="/agendar-cita">
+            <Button 
+              size="lg" 
+              className="text-lg px-8 py-6 rounded-full shadow-glow hover:shadow-soft transition-all duration-300"
+            >
+              <Calendar className="w-5 h-5 mr-2" />
+              Agenda una Cita
+            </Button>
+          </Link>
         </div>
       </section>
 
@@ -93,13 +95,15 @@ const Index = () => {
           <p className="text-xl text-muted-foreground">
             Habla con nuestro equipo y descubre cómo los agentes de voz pueden transformar tu negocio
           </p>
-          <Button 
-            size="lg" 
-            className="text-lg px-8 py-6 rounded-full shadow-glow hover:shadow-soft transition-all duration-300"
-          >
-            <Calendar className="w-5 h-5 mr-2" />
-            Contacta con Nosotros
-          </Button>
+          <Link to="/agendar-cita">
+            <Button 
+              size="lg" 
+              className="text-lg px-8 py-6 rounded-full shadow-glow hover:shadow-soft transition-all duration-300"
+            >
+              <Calendar className="w-5 h-5 mr-2" />
+              Contacta con Nosotros
+            </Button>
+          </Link>
         </div>
       </section>
 
