@@ -30,8 +30,15 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Header */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <h2 className="text-xl font-semibold text-foreground">Chain Capitals Group</h2>
+        </div>
+      </header>
+
       {/* Hero Section */}
-      <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20">
+      <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 pt-28">
         <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-muted/20 pointer-events-none" />
         
         <div className="relative z-10 max-w-4xl mx-auto text-center space-y-8">
