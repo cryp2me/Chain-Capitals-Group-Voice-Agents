@@ -1,10 +1,8 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-
 const PoliticaCookies = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">
@@ -120,9 +118,7 @@ const PoliticaCookies = () => {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">8. Más Información</h2>
-            <p className="text-muted-foreground">
-              Si tiene alguna pregunta sobre nuestra política de cookies, puede contactarnos en [correo electrónico de contacto].
-            </p>
+            <p className="text-muted-foreground">Si tiene alguna pregunta sobre nuestra política de cookies, puede contactarnos en info@chaincapitalsgroup.com.</p>
           </section>
 
           <p className="text-sm text-muted-foreground mt-8">
@@ -130,8 +126,6 @@ const PoliticaCookies = () => {
           </p>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default PoliticaCookies;
