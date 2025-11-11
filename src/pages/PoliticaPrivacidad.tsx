@@ -26,11 +26,12 @@ const PoliticaPrivacidad = () => {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">2. Responsable del Tratamiento</h2>
-            <p className="text-muted-foreground text-left">Chain Capitals SL Ctra Dolores - San Fulgencio 03150 Dolores Alicante CIF B10698496 info@chaincapitalsgroup.com<br />
-              [Dirección completa]<br />
-              [CIF/NIF]<br />
-              [Correo electrónico de contacto]<br />
-              [Teléfono de contacto]
+            <p className="text-muted-foreground text-left">
+              Chain Capitals SL<br />
+              Ctra Dolores - San Fulgencio<br />
+              03150 Dolores, Alicante<br />
+              CIF: B10698496<br />
+              Email: info@chaincapitalsgroup.com
             </p>
           </section>
 
@@ -84,7 +85,7 @@ const PoliticaPrivacidad = () => {
               <li>Derecho a la portabilidad de los datos</li>
             </ul>
             <p className="text-muted-foreground mt-4">
-              Para ejercer estos derechos, puede contactar con nosotros en [correo electrónico de contacto].
+              Para ejercer estos derechos, puede contactar con nosotros en info@chaincapitalsgroup.com
             </p>
           </section>
 
