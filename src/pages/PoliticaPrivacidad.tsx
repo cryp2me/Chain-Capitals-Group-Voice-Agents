@@ -31,7 +31,7 @@ Ctra Dolores - San Fulgencio
 03150 Dolores
 Alicante
 CIF B10698496
-Correo electrónico info@chaincapitalsgroup.com<br />
+Correo electrónico:   info@chaincapitalsgroup.com<br />
               [Dirección completa]<br />
               [CIF/NIF]<br />
               [Correo electrónico de contacto]<br />
