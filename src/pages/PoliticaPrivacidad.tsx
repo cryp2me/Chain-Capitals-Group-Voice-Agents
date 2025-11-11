@@ -26,11 +26,12 @@ const PoliticaPrivacidad = () => {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">2. Responsable del Tratamiento</h2>
-            <p className="text-muted-foreground">[Chain Capitals SL]
-[Alicante ]
-[CIF/NIF]
-[Correo electrónico de contacto]
-[Teléfono de contacto]<br />
+            <p className="text-muted-foreground">Chain Capitals SL
+[Alicante ] 
+[CIF/NIF] 
+[Correo electrónico de contacto] 
+[Teléfono de contacto]
+            <br />
               [Dirección completa]<br />
               [CIF/NIF]<br />
               [Correo electrónico de contacto]<br />
