@@ -1,10 +1,8 @@
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-
 const PoliticaPrivacidad = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <div className="max-w-4xl mx-auto px-4 py-12">
         <Link to="/">
           <Button variant="ghost" className="mb-8">
@@ -28,8 +26,11 @@ const PoliticaPrivacidad = () => {
 
           <section>
             <h2 className="text-2xl font-semibold mb-4">2. Responsable del Tratamiento</h2>
-            <p className="text-muted-foreground">
-              [Nombre de la empresa]<br />
+            <p className="text-muted-foreground">[Chain Capitals SL]
+[Alicante ]
+[CIF/NIF]
+[Correo electrónico de contacto]
+[Teléfono de contacto]<br />
               [Dirección completa]<br />
               [CIF/NIF]<br />
               [Correo electrónico de contacto]<br />
@@ -112,8 +113,6 @@ const PoliticaPrivacidad = () => {
           </p>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default PoliticaPrivacidad;
