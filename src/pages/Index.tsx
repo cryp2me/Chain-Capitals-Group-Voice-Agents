@@ -3,6 +3,7 @@ import { Calendar, Stethoscope, Sparkles, Building2, UtensilsCrossed } from "luc
 import VoiceMicButton from "@/components/VoiceMicButton";
 import SectorCard from "@/components/SectorCard";
 import { Link } from "react-router-dom";
+import ccgLogo from "@/assets/ccg-logo.png";
 
 const Index = () => {
   const sectors = [
@@ -33,7 +34,10 @@ const Index = () => {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
         <div className="max-w-7xl mx-auto px-4 py-4">
-          <h2 className="text-xl font-semibold text-foreground">Chain Capitals Group</h2>
+          <div className="flex items-center gap-3">
+            <img src={ccgLogo} alt="Chain Capitals Group Logo" className="w-10 h-10" />
+            <h2 className="text-xl font-semibold text-gradient-ai">Chain Capitals Group</h2>
+          </div>
         </div>
       </header>
 
