@@ -116,7 +116,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © 2025 Agentes de Voz IA. Todos los derechos reservados.
+              © 2025 Agentes de Voz IA | Chain Capitals Group. Todos los derechos reservados.
             </p>
             <div className="flex gap-6">
               <Link 
