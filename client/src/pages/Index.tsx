@@ -3,7 +3,7 @@ import { Calendar, Stethoscope, Sparkles, Building2, UtensilsCrossed } from "luc
 import VoiceMicButton from "@/components/VoiceMicButton";
 import SectorCard from "@/components/SectorCard";
 import { Link } from "wouter";
-import ccgLogo from "@/assets/ccg-logo.png";
+import ccgLogo from "@/assets/ccg-logo-new.png";
 
 const Index = () => {
   const sectors = [
