@@ -1,5 +1,5 @@
 import { ArrowLeft, Calendar, Mail, Phone, User, Building2 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";

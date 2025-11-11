@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Calendar, Stethoscope, Sparkles, Building2, UtensilsCrossed } from "lucide-react";
 import VoiceMicButton from "@/components/VoiceMicButton";
 import SectorCard from "@/components/SectorCard";
-import { Link } from "react-router-dom";
+import { Link } from "wouter";
 import ccgLogo from "@/assets/ccg-logo.png";
 
 const Index = () => {
